@@ -1,4 +1,6 @@
 # OpenVINS
+> **Fork note (mosouab/open_vins):** This fork includes a ROS2 Jazzy compatibility fix that updates ROS1 legacy header
+> includes to ROS2 header paths (`.hpp`) for `image_transport`, `tf2_geometry_msgs`, and `cv_bridge` in `ov_msckf`.
 
 [![ROS 1 Workflow](https://github.com/rpng/open_vins/actions/workflows/build_ros1.yml/badge.svg)](https://github.com/rpng/open_vins/actions/workflows/build_ros1.yml)
 [![ROS 2 Workflow](https://github.com/rpng/open_vins/actions/workflows/build_ros2.yml/badge.svg)](https://github.com/rpng/open_vins/actions/workflows/build_ros2.yml)
